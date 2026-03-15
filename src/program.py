@@ -16,3 +16,4 @@ if search in files:
     print("File found")
 else:
     print("File not found")
+    print("The program is completed")
