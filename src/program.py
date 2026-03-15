@@ -1,19 +1,18 @@
 import os
 
-path = input("Enter path to folder: ")
+path = input("Введіть шлях до папки: ")
 
 files = os.listdir(path)
 
-print("Papa's files:")
+print("Файли у папці:")
 for f in files:
     print(f)
 
-print("Number of files:", len(files))
+print("Кількість файлів:", len(files))
 
-search = input("Enter a file name to search for: ")
+search = input("Введіть назву файлу для пошуку: ")
 
 if search in files:
-    print("File found")
+    print("Файл знайдено")
 else:
-    print("File not found")
-    print("The program is completed")
+print("File not found")
